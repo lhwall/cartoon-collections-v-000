@@ -12,12 +12,14 @@ end
 end
 
 def long_planeteer_calls(planeteer_calls)# code an argument here
-  
+  answer = false
   planeteer_calls.each do |i| if i.length > 4
+  answer = true
   return true
-else false
   end
 end
+if answer = false 
+  return answer
 end
 
 def find_the_cheese# code an argument here
