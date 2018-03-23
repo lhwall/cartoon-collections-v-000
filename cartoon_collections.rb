@@ -12,7 +12,8 @@ end
 end
 
 def long_planeteer_calls(planeteer_calls)# code an argument here
-  planeteer_calls.each |i| if i > 4 puts true
+  planeteer_calls.each |i| if i > 4 
+  return true 
 end
 end
 end
