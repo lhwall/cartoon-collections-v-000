@@ -12,8 +12,7 @@ end
 end
 
 def long_planeteer_calls(planeteer_calls)# code an argument here
-  planeteer_calls.each do |i| if i > 4 
-  return true 
+  planeteer_calls.each do |i| if i > 3 return true 
   end
 end
 end
