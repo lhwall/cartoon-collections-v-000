@@ -27,7 +27,7 @@ def find_the_cheese(cheeses)# code an argument here
   cheeses.each do |i| if cheese_types.include?(i)
    return_value = i
    return i
- endend
-    return return_value
-
+ end
+ end
+ return return_value
 end
