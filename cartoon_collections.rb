@@ -28,8 +28,6 @@ def find_the_cheese(cheeses)# code an argument here
    return_value = i
    return i
  end
- 
-   return return_value
- end
+    return return_value
 end
 end
