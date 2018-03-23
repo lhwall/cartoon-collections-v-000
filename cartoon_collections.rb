@@ -15,11 +15,9 @@ def long_planeteer_calls(planeteer_calls)# code an argument here
   answer = false
   planeteer_calls.each do |i| if i.length > 4
   answer = true
-  return true
   end
 end
-if answer = false 
-  return answer
+ return answer
 end
 end
 
