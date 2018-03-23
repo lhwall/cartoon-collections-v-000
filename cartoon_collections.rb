@@ -22,6 +22,10 @@ end
 
 def find_the_cheese(cheeses)# code an argument here
   # the array below is here to help
+  return_value = nil
   cheese_types = ["cheddar", "gouda", "camembert"]
-  cheeses.each do |i| if cheese_types.contains
+  cheeses.each do |i| if cheese_types.contains[i]
+   return_value = i
+ end
+ end
 end
