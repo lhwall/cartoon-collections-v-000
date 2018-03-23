@@ -28,7 +28,7 @@ def find_the_cheese(cheeses)# code an argument here
    return_value = i
    return i
  end
- if return_value == nil
+ 
    return return_value
  end
 end
